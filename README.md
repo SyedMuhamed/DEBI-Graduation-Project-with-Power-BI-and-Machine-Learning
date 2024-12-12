@@ -113,7 +113,3 @@ Findings revealed that stock prices often deviate from fundamental health due to
 ## Contact
 - **LinkedIn**: [Syed Mohamed](https://www.linkedin.com/in/syedabdulhamid)
 
----
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
