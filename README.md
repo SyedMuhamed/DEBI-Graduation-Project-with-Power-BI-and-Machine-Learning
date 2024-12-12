@@ -94,7 +94,7 @@ Findings revealed that stock prices often deviate from fundamental health due to
 ## References
 1. [YFinance Documentation](https://pypi.org/project/yfinance/)
 2. [Power BI Overview](https://powerbi.microsoft.com/)
-###Research papers and tutorials on LSTM and financial analysis.
+**Research papers and tutorials on LSTM and financial analysis**
 1. (https://medium.com/analytics-vidhya/introduction-to-long-short-term-memory-lstm-a8052cd0d4cd)
 2. (https://www.researchgate.net/publication/13853244_Long_Short-term_Memory)
 3. (https://galaxyinferno.com/explaining-the-components-of-a-neural-network-ai/)
