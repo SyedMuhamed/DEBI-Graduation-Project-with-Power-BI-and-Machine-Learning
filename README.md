@@ -77,12 +77,14 @@ This project integrates machine learning algorithms like Decision Trees, Random 
 ---
 
 ## Contributors
-- **Team Members**:
-  - Syed Mohamed
-  - Karim Hisham
-  - Makarius Nader
-- **Supervisor**:
-  - Dr. Amira
+
+### Team Members
+- **[Syed Mohamed](https://www.linkedin.com/in/syedabdulhamid)**  
+- **[Karim Hisham](https://www.linkedin.com/in/kareemhisham/)**  
+- **[Makarius Nader](https://www.linkedin.com/in/makarius-nader-84b368276/)**  
+
+### Supervisor
+- **[Dr. Amira](https://www.linkedin.com/in/amira-gaber-cu/)**
 
 ---
 
