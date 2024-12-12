@@ -92,13 +92,20 @@ Findings revealed that stock prices often deviate from fundamental health due to
 ---
 
 ## References
-1. [YFinance Documentation](https://pypi.org/project/yfinance/)
-2. [Power BI Overview](https://powerbi.microsoft.com/)
-   
-  **Research papers and tutorials on LSTM and financial analysis**
-1. (https://medium.com/analytics-vidhya/introduction-to-long-short-term-memory-lstm-a8052cd0d4cd)
-2. (https://www.researchgate.net/publication/13853244_Long_Short-term_Memory)
-3. (https://galaxyinferno.com/explaining-the-components-of-a-neural-network-ai/)
+
+### Documentation
+1. [YFinance Documentation](https://pypi.org/project/yfinance/)  
+   Official documentation for the YFinance Python library, providing tools to access financial market data.
+2. [Power BI Overview](https://powerbi.microsoft.com/)  
+   Overview and resources for Power BI, Microsoft's interactive data visualization and business intelligence tool.
+
+### Research Papers and Tutorials on LSTM and Financial Analysis
+1. [Introduction to Long Short-Term Memory (LSTM) Models](https://medium.com/analytics-vidhya/introduction-to-long-short-term-memory-lstm-a8052cd0d4cd)  
+   A beginner-friendly introduction to LSTM networks and their applications, published on Medium.
+2. [Long Short-Term Memory](https://www.researchgate.net/publication/13853244_Long_Short-term_Memory)  
+   A seminal paper on the LSTM model, available on ResearchGate.
+3. [Explaining the Components of a Neural Network](https://galaxyinferno.com/explaining-the-components-of-a-neural-network-ai/)  
+   An article breaking down the components of neural networks, with insights into LSTMs.
 ---
 
 ## Contact
