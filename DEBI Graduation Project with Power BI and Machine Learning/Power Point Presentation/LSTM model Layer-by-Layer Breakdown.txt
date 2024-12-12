@@ -1,0 +1,45 @@
+*The architecture consists of three LSTM layers with dropout layers in between to prevent overfitting.
+*dense layer (fully connected layer) is used for producing the output.
+------------------------------------------------------------------------------------
+*The model processes a sequence of data with an input shape of (None, 100, 1), where:
+- None: Represents the batch size, which can vary.
+- 100: The number of time steps or sequence length.
+- 1: The number of features in each time step.
+*As the data passes through the layers, the model reduces the dimensionality of the information, down to a single output.
+-----------------------------------------------------------------------------------
+
+Layer-by-Layer Breakdown
+1. LSTM Layer (lstm_9)
+Input Shape: (None, 100, 1)
+Output Shape: (None, 100, 30)
+The LSTM layer processes the input sequence and outputs 30 features for each time step in the sequence.
+-----------------------------------------------------------------------------------------------------
+2. Dropout Layer (dropout_9)
+Input Shape: (None, 100, 30)
+Output Shape: (None, 100, 30)
+A dropout layer with a certain probability (usually 0.2 or 0.3) is added to prevent overfitting by randomly setting some outputs to zero during training.
+-----------------------------------------------------------------------------------------------------
+3. LSTM Layer (lstm_10)
+Input Shape: (None, 100, 30)
+Output Shape: (None, 100, 50)
+This LSTM layer increases the number of features per time step to 50, allowing the model to learn more complex patterns from the sequence.
+-----------------------------------------------------------------------------------------------------
+4. Dropout Layer (dropout_10)
+Input Shape: (None, 100, 50)
+Output Shape: (None, 100, 50)
+Again, a dropout layer is added to reduce the risk of overfitting.
+-----------------------------------------------------------------------------------------------------
+5. LSTM Layer (lstm_11)
+Input Shape: (None, 100, 50)
+Output Shape: (None, 50)
+This is the final LSTM layer. Unlike previous layers, it outputs a single vector with 50 features (not a sequence) by returning only the last time step.
+-----------------------------------------------------------------------------------------------------
+6. Dropout Layer (dropout_11)
+Input Shape: (None, 50)
+Output Shape: (None, 50)
+This dropout layer is applied to the output of the last LSTM layer.
+-----------------------------------------------------------------------------------------------------
+7. Dense Layer (dense_3)
+Input Shape: (None, 50)
+Output Shape: (None, 1)
+The dense layer (fully connected layer) reduces the 50-dimensional output vector to a single scalar value. This is typically used for regression or binary classification tasks.
